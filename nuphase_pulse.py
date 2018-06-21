@@ -51,7 +51,7 @@ class Pulses:
     def nullFiberDelays(self):
         for i in range(self.channels):
             self.wave[i].voltage=numpy.roll(self.wave[i].voltage, -detector.good_ch_fiber_lengths[i]*int(numpy.round(detector.nuphase_fiber_delay/self.wave[i].dt)))
-            self.wave[i].fft()
+        #self.fft() #user should independently recall fft(), if necessary
 
     def upsample(self, upsample_factor):
         for i in range(self.channels):
