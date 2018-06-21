@@ -7,7 +7,7 @@ Specify nuphaseroot install directory and data location in setup.py
 
 Basic detector properties defined in detector.py
 
-A quick look at the distribution of SPiceCorepulses is provided in examples/spiceCore.py. 
+A quick look at the distribution of SPiceCore pulses is provided in examples/spiceCore.py. 
 rRn as:
 ```
 python -m examples.spiceCore
