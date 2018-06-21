@@ -40,7 +40,7 @@ class Pulses:
     def convertToVolts(self):
         for i in range(self.channels):
             self.wave[i].voltage = self.wave[i].voltage * detector.nuphase_mV_per_count * 1.e-3
-        self.fft()
+        #self.fft() #user should independently recall fft(), if necessary
 
     def getBaselineNoise(self, baseline_samples=50):
         pre_rms=[]
