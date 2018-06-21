@@ -17,5 +17,5 @@ A simple event viewer can be run as:
 ```
 python event_viewer.py [run] [root_tree_entry]
 ```
-![alt text] (https://github.com/vPhase/pynuphase/blob/master/doc/frun660entry1.png)
+![alt text](https://github.com/vPhase/pynuphase/blob/master/doc/frun660entry1.png)
 
