@@ -7,6 +7,8 @@ n_ice = 1.78
 c_light = 0.29929 #m/ns
 c_light = c_light / n_ice
 
+nuphase_location = [32356, 39733] #Easting, Northing [ft]
+
 nuphase_fiber_delay = 4.950 #ns/m
 nuphase_fiber_lengths = [14,12,10,9,8,7,6,5,4,3,2,1]
 nuphase_fiber_lengths = nuphase_fiber_lengths[::-1]
